@@ -9,7 +9,7 @@ const getUserCountMessage = (count: number | undefined) => {
   else if (count && count > 0)
     return (
       <div>
-        <strong>Registered users: {count}</strong> 🎉
+        <strong>Number of users verified: {count}</strong> ✅
       </div>
     );
   else return <strong>Loading…</strong>;
