@@ -6,7 +6,7 @@ export default {
   registrationDisabled: false,
 
   // site slogan
-  slogan: "Free NIP-05 verification.",
+  slogan: "Nostr username verification for people who are unable or do not wish to pay.",
 
   // your monthly costs
   costsMonthly: "$1.25 USD",
