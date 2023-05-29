@@ -11,10 +11,12 @@ const { lnUrl, costsMonthly } = Astro.props
 
 <section class="donation">
   <p>
-    This service is free, but it takes some time and costs {costsMonthly}/month to operate.
-  </p>
+This service it's provided for free but does cost {costsMonthly}/month to operate.
+	
+</p>
   <p>
-    If you like this service, please consider a small lightning ⚡ donation to keep it up:
+     If you find it useful, please consider a small Lightning ⚡ donation to help keep it running:
+
   </p>
 
   <AstroQRCode lnUrl={lnUrl} client:only />
