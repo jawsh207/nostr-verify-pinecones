@@ -209,13 +209,14 @@ export const RegistrationForm = ({ disabled, host }: RegistrationFormProps) => {
         <div>
           <input
             type="text"
-            placeholder="public key"
+            placeholder="public key in hex format"
             maxLength={64}
             disabled={formDisabled || formSubmitted}
             value={pubkey}
             onChange={(event) => handleInput("pubkey", event)}
           />
         </div>
+        *hint: convert you npub to hex <a href="https://lightningk0ala.github.io/nostr-wtf/">here</a>
 
         <div className="address">
           <input
