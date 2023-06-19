@@ -216,7 +216,7 @@ export const RegistrationForm = ({ disabled, host }: RegistrationFormProps) => {
             onChange={(event) => handleInput("pubkey", event)}
           />
         </div>
-        *convert you npub to hex <a href="https://lightningk0ala.github.io/nostr-wtf/">here</a>
+        <font size="1">(convert you npub to hex <a href="https://lightningk0ala.github.io/nostr-wtf/">here</a>)</font>
 
         <div className="address">
           <input
